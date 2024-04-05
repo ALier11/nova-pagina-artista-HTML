@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Entre em contato:</h1>
+    </header>
+
+    <main>
+        <section>
+            <form method="post">  
+            <fieldset> 
+                <legend>Informações Pessoais:</legend>    
+                <br><br>     
+                <label>Nome: </label>
+                <input type="text" name="Nome" id="nome">
+                <br><br>
+                <Label>E-mail:</Label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <Label>Senha:</Label>
+                <input type="password" name="senha" id="senha">
+                <br><br>
+                <label>Telefone:</label>
+                <input type="tel" name="Telefone" id="telefone">
+                <br><br>
+                <label>Idade: </label>
+                <input type="number" name="idade" id="idade" step="1" min="1" max="100">
+                <br><br>
+                <label>Data de aniversário:</label>
+                <input type="date" name="data" id="data">
+                <br><br>
+            </fieldset> 
+<br><br>
+            <fieldset> 
+                <legend>Preferências:</legend> 
+                <br><br>
+                <label>Categoria preferida:</label>
+                <input list="categorias" name="categoria" id="categoria">
+                <datalist id="categorias">
+                <option value="Formula 1"></option>
+                <option value="Nascar"></option>
+                <option value="World Endurance Championchip"></option>
+                <option value="Rally"></option>
+                <option value="Rally Dakar"></option>
+                <option value="Formula Drift"></option>
+                </datalist>
+                <br><br>
+                <input type="checkbox" name="receber" id="receber">Aceito receber um retorno deste formulário
+            </fieldset> 
+            <br><br>
+            <fieldset>
+                <br><br>
+                <legend>Biografia:</legend>
+                <textarea name="biografia" id="biografia" cols="80" rows="20"></textarea>
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <br><br>
+                <legend>Foto:</legend>
+                <br><br>
+                <input type="file" name="Foto" id="Foto">
+                <br><br>
+            </fieldset>
+                        <input type="submit" value="Enviar">
+                        </form>
+                    </section>
+                </main>
+            <hr>
+            <footer>
+                <center>
+                    &copy; Formulário de contato.
+                </center>
+            </footer>
+            </body>
+            </html>
